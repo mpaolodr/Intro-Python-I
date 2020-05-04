@@ -22,12 +22,7 @@ print(f1(1, 2))
 
 def f2(*argv):
 
-    numbers = []
-
-    for arg in argv:
-        numbers.append(int(arg))
-
-    return sum(numbers)
+    return sum(argv)
 
 
 print(f2(1))                    # Should print 1
